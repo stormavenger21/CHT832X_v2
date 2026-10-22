@@ -1,0 +1,9 @@
+{
+    "name":"CHT832X",
+    "description":"reads temp and humid data and sends to cockpit GCS,
+    "icon":"mdi-clock-fast",
+    "company":"MVO",
+    "version":"1.0.0",
+    "webpage":"https://github.com/stormavenger21/CHT832X_v2",
+    "api":""
+ }

@@ -19,20 +19,13 @@ LABEL permissions='{\
 }'
 LABEL authors='[\
     {\
-        "name": "Willian Galvani",\
-        "email": "willian@bluerobotics.com"\
+        "name": "stormavenger21",\
     }\
 ]'
 LABEL company='{\
         "about": "",\
-        "name": "Blue Robotics",\
-        "email": "support@bluerobotics.com"\
+        "name": "stormavenger21",\
     }'
-LABEL type="example"
-LABEL readme='https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/{tag}/example2-statichtml-mavlink/Readme.md'
-LABEL links='{\
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",\
-        "support": "https://github.com/Williangalvani/BlueOS-examples/"\
-    }'
-LABEL requirements="core >= 1.1"
+LABEL readme='https://github.com/stormavenger21/CHT832X_v2/edit/main/readme.md'
+#LABEL requirements="core >= 1.1"
 ENTRYPOINT cd /static && python -m http.server 80
